@@ -1,0 +1,14 @@
+{
+  "Version": "16.1.0",
+  "Name": "2026 AI 视觉图床",
+  "DestinationType": "ImageUploader",
+  "RequestMethod": "POST",
+  "RequestURL": "https://这里换成你的Worker地址.workers.dev",
+  "Headers": {
+    "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36"
+  },
+  "Body": "MultipartFormData",
+  "FileFormName": "file",
+  "URL": "{json:url}",
+  "ErrorMessage": "{json:error}"
+}
